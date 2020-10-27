@@ -37,8 +37,8 @@ body
 
 .nav-logo-img
 {
-	height: 50px;
-	margin-top: 17px;
+	height: 70px;
+	margin-top: 7px;
 	width: auto;
 	transition: 0.5s ease-in-out;
 }
@@ -170,8 +170,8 @@ body
 
 	.nav-logo-img
 	{
-		margin-top: 10px;
-		height: 40px;
+		margin-top: 6px;
+		height: 48px;
 	}
 
 	.toggle-bars
@@ -222,3 +222,97 @@ body
 	z-index: 999;
 	display: none;
 }
+
+
+
+/* HEADER */
+  .header{
+    background: linear-gradient(rgba(13,44,84,1),rgba(13,44,84,0.2)), url('../images/banner.jpg');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center 80%;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    padding-top: 90px;
+  } 
+  .header h1{
+    margin:0;
+    font-weight: 700;
+  }
+  .header p{
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: 400;
+  }
+  /* h4-get started button */
+  .header h4{color:black;
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px;
+  }
+  .get-started{
+    display: flex;
+    width: fit-content;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .fa-angle-right:before{
+    font-size: 28px;
+    padding: 5px 10px;
+    font-weight: 600;
+  }
+  .yellow-button{
+    background-color: #fdca76;
+    border: none;
+    border-radius: 0 5px 5px 0;
+  }
+  .yellow-button:focus
+  {
+    outline: none;
+  }
+
+
+  @media screen and (max-width: 991px){
+    .header{
+      background-position: center;
+    }
+  }
+
+  @media screen and (max-width: 850px){
+    .header{
+      padding-top: 70px;
+    }
+  }
+  
+  @media screen and (max-width: 560px){
+    .header{
+      background-position: 100%;
+    }
+  }
+
+  @media screen and (max-width: 510px){
+    .header{
+      background-position: 76%;
+    }
+  }
+
+  @media screen and (max-width: 415px){
+    .header{
+      background-position: 73%;
+    }
+  }
+
+  @media screen and (max-width: 383px){
+    .header{
+      background-position: 70%;
+    }
+  }
+
+  @media screen and (max-width: 353px){
+    .header{
+      background-position: 60%;
+    }
+  }
