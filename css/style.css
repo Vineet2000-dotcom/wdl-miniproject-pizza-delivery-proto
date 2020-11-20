@@ -358,6 +358,57 @@ body
 
 /*CARDS Section*/
 
+/*footer*/
+#footer-image
+{
+	width: 300px;
+	height: 200px;
+}
+
+#full-footer
+{
+	background: #2e373e;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main-footer
+{
+	background: #13283a;
+	color: #eeeeee;
+}
+
+.footer-head
+{
+	font-size: 23px;
+}
+
+.footer-data
+{
+	font-size: 16px;
+	color: rgba(255,255,255,0.6);
+}
+
+.footer-social
+{
+	opacity: 0.95;
+}
+
+.footer-social-linkedin
+{
+	background: #2867B2;
+}
+
+.footer-social-facebook
+{
+	background: #3b5998;
+}
+
+.copyright
+{
+	background: #2e373e;
+	color: rgba(255,255,255,0.4);
+}
+/*footer ends*/
 
 /*MENU Section*/
 /*-----menu main----*/
