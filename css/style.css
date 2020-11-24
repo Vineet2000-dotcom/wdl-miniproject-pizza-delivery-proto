@@ -587,9 +587,526 @@ body
 	}
 }
 
-
-
-
-
-
 /*MENU Section*/
+
+
+/*LOGIN Section*/
+
+.loginbody{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7));
+	font-family: "Poppins", sans-serif;
+}
+		
+.loginbg{
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url('../images/pizzalog.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 80%;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	padding-top: 2%;
+}
+
+.logincard{
+	height: auto;
+	padding: 3%;
+	width: 60%;
+	box-shadow: 5px 5px 10px #000;
+			
+}
+
+.logincardtitle{
+	text-transform: uppercase;
+	text-shadow: 1px 1px 2px grey;
+}
+
+.logininput{
+	width: 80%;
+}
+
+.loginbutton{
+	margin-bottom: 2%;
+	width: 80%;
+	border-radius: 23px;
+}
+
+.loginlinkstyle{
+	text-decoration: none;
+	color: black;
+	font-size: 80%;
+}
+
+/*hover*/
+.logininput:hover{
+	box-shadow: inset 1px 1px 5px grey;
+}
+
+.loginbutton:hover{
+	box-shadow: 2px 2px 5px grey;
+}
+
+.loginlinkstyle:hover{
+	text-decoration: none;
+	color: #dc3545;
+}
+
+/*media query*/
+@media(max-width: 993px){
+	.logincard{
+		width: 80%;
+	}
+
+	.logininput{
+		width: 85%;
+	}
+	
+	.loginbutton{
+		width: 85%;	
+	}
+}
+
+@media(max-width: 767px){
+	.logincard{
+		width: 90%;
+	}
+}
+
+@media(max-width: 576px){
+	.logincard{
+		width: 100%;
+		height: 0%;		
+	}
+	
+	.logininput{
+		font-size: 85%;
+		width: 90%;
+	}
+	
+	.loginbutton{
+		width: 90%;	
+	}
+}
+
+/*LOGIN Section*/
+
+/*FORGOT PASSWORD 1 Section*/
+
+.forgot1body{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7));
+	font-family: "Poppins", sans-serif;
+}
+    	
+.forgotbg{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url('../images/pizzalog.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 80%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+}
+
+.forgot1card{
+    height: auto;
+    padding: 3%;
+    width: 60%;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.forgot1cardtitle{
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.forgotinput{
+    width: 80%;
+}
+
+.forgotbutton{
+    margin-bottom: 2%;
+    width: 80%;
+    border-radius: 23px;
+}
+
+.forgotlinkstyle{
+    text-decoration: none;
+    font-size: 80%;
+    color: #000;
+}
+
+/*Hover*/
+.forgotinput:hover{
+    box-shadow: inset 1px 1px 5px grey;
+}
+
+.forgotbutton:hover{
+    box-shadow: 2px 2px 5px grey; 
+}
+
+.forgotlinkstyle{
+    text-decoration: none;
+    color: #dc3545;
+}
+
+/*Media Query*/
+@media(max-width: 993px){
+    .forgot1card{
+        width: 80%;
+    }
+
+    .forgotinput{
+        width: 85%;
+    }
+            
+    .forgotbutton{
+        width: 85%; 
+    }
+}
+        
+@media(max-width: 767px){
+    .forgot1card{
+        width: 90%;
+    }
+}
+
+@media(max-width: 576px){
+    .forgot1card{
+        width: 100%;
+    }
+    
+    .forgotinput{
+        font-size: 85%;
+        width: 90%;
+    }
+            
+    .forgotbutton{
+        width: 90%; 
+    }
+    
+    .forgot1cardtitle{
+        font-size: 150%;
+    }
+}
+
+/*FORGOT PASSWORD 1 Section*/
+
+/*FORGOT PASSWORD 2 Section*/
+
+.forgot2body{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7));
+	font-family: "Poppins", sans-serif;
+}
+
+.forgot2bg{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url('../images/pizzalog.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 80%;
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    padding-top: 2%;
+}
+
+.forgot2card{
+    height: auto;
+    padding: 3%;
+    width: 60%;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.forgot2cardtitle{
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.hrline{
+    border-top: 1px solid grey;
+}
+
+.parainfo{
+    background-color: #B0B0B0;
+    padding: 2%; 
+    border-radius: 22px;
+    font-size: 110%;
+}
+
+.forgot2input{
+    width: 80%;
+}
+
+.parabracket{
+    font-size: 100%;
+    width: 80%;
+    color: #6E6E6E;
+}
+
+.forgot2button{
+    margin-bottom: 2%;
+    width: 80%;
+    border-radius: 23px;
+}
+
+.forgot2linkstyle{
+    text-decoration: none;
+    font-size: 80%;
+    color: #000;
+}
+
+/*Hover*/
+.forgot2input:hover{
+    box-shadow: inset 1px 1px 5px grey;
+}
+
+.forgot2button:hover{
+    box-shadow: 2px 2px 5px grey;
+}
+
+.forgot2linkstyle:hover{
+    text-decoration: none;
+    color: #dc3545;
+}
+
+/*Media Query*/
+@media(max-width: 993px){
+    .forgot2card{
+        width: 80%;
+    }
+
+    .forgot2input{
+        width: 85%;
+    }
+    
+    .forgot2button{
+        width: 85%; 
+    }
+}
+
+@media(max-width: 767px){
+    .forgot2card{
+        width: 90%;
+    }
+}
+  
+@media(max-width: 576px){
+    .forgot2card{
+        width: 100%;
+    }
+     
+    .forgot2input{
+        font-size: 85%;
+        width: 90%;
+    }
+            
+    .forgot2button{
+        width: 90%; 
+    }
+     
+    .forgot2cardtitle{
+        font-size: 150%;
+    }
+}
+
+
+/*FORGOT PASSWORD 2 Section*/
+
+/*RESET SUCCESS Section*/
+
+.resetsucbody{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7));
+	font-family: "Poppins", sans-serif;
+}
+
+.resetsuccessbg{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url('../images/pizzalog.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 80%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+}
+
+.resetcard{
+    height: auto;
+    padding: 3%;
+    width: 60%;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.resetcardtitle{
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.resetlinkstyle{
+    text-decoration: none;
+    font-size: 110%;
+    color: #000;
+}
+
+/*Hover*/
+.resetlinkstyle:hover{
+    text-decoration: none;
+    color: #dc3545;
+}
+
+/*Media Query*/
+@media(max-width: 993px){
+    .resetcard{
+        width: 80%;
+    }
+}
+        
+@media(max-width: 767px){
+    .resetcard{
+        width: 90%;
+    }
+}
+     
+@media(max-width: 576px){
+    .resetcard{
+        width: 100%;
+    }
+     
+    .resetcardtitle{
+        font-size: 150%;
+    }
+}
+
+/*RESET SUCCESS Section*/
+
+/*REGISTER Section*/
+
+.registerbody{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7));
+	font-family: "Poppins", sans-serif;
+}
+
+.registerbg{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url('../images/pizzalog.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 80%;
+    position: absolute;
+    width: 100%;
+    height: 350%;
+    padding-top: 2%;
+}
+
+.registercard{
+    height: auto;
+    padding: 3%;
+    width: 60%;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.registercardtitle{
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.hrline{
+    border-top: 1px solid grey;
+}
+
+.redpara{
+    font-size: 120%;
+    color: #dc3545;
+}
+
+.criteria{
+    color: green;
+}
+
+.capimage{
+    position: relative;
+    width: 20%;
+    height: 10%;
+}
+
+.registerinput{
+    width: 80%;
+}
+
+.changecapbutton{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 30%;
+}
+
+.registerbutton{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+    border-radius: 23px;
+}
+
+.registerlinkstyle{
+    text-decoration: none;
+    font-size: 80%;
+    color: #000;
+}
+
+/*Hover*/
+.registerinput:hover{
+    box-shadow: inset 1px 1px 5px grey;
+}
+
+.registerbutton:hover{
+    box-shadow: 2px 2px 5px grey;
+}
+
+.changecapbutton:hover{
+    box-shadow: 2px 2px 5px grey;
+}
+
+.registerlinkstyle:hover{
+    text-decoration: none;
+    color: #dc3545;
+}
+
+/*Media Query*/
+@media(max-width: 993px){
+    .registercard{
+        width: 80%;
+    }
+            
+    .registerinput{
+        width: 85%;
+    }
+            
+    .changecapbutton{
+        width: 50%; 
+    }
+}
+       
+@media(max-width: 767px){
+    .registercard{
+        width: 90%;
+    }
+}
+        
+@media(max-width: 576px){
+    .registercard{
+        width: 100%;
+    }
+          
+    .registerinput{
+        font-size: 85%;
+        width: 90%;
+    }
+      
+    .changecapbutton{
+        width: 80%; 
+    }
+    
+    .registercardtitle{
+        font-size: 150%;
+    }
+}
+
+/*REGISTER Section*/
