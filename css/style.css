@@ -1110,3 +1110,244 @@ body
 }
 
 /*REGISTER Section*/
+
+/*PROFILE PAGE Section*/
+
+.profilebg{
+	background: url('../images/pizza-background-menu.jpg');
+    width: 100%;
+    height: auto;
+   	background-position: center 80%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 3%;
+}
+
+.profilerow{
+	padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 3%; 
+  	margin: 2%;
+    height: auto;
+    width: 100%;
+    background-color: #fff; 
+    border-color: transparent;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.titleboxcol{
+	padding: 0;
+}
+
+.titlebox{
+	padding: 3%;
+    transition: 0.5s ease-in-out;
+	height: auto;
+	width: 100%;
+	background-color: #000; 
+	position: relative;
+}
+
+.profileusername{
+	color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.titleoverlay{
+	position: absolute;
+	bottom: 0;
+	transition: 0.5s ease;
+	right: 0;
+	top: 0;
+	background: linear-gradient(to right ,rgba(0,0,0,0.6),rgba(0,0,0,0.9));
+	height: 100%;
+	width: 0;
+	overflow: hidden;
+}
+
+.profileoverlaytext{
+	color: #fff;
+	/*#D8D0DB*/
+	font-size: 120%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	white-space: nowrap; 
+}
+
+.settingsbox{
+	margin-top: 5%;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	overflow: hidden; 
+	padding-top: 0;
+	padding-bottom: 2%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.settingstitle{
+	font-size: 110%;
+	background-color: #dc3545;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 0;
+	padding-right: 0; 
+	margin-bottom: 0; 
+	color: #fff;
+}
+
+.settingsitem{
+	background-color: #fff;
+	border-left: 0;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	padding-left: 0;
+	padding-right: 0; 
+	margin: 0;
+	transition: 0.1s ease-in-out;
+	font-size: 100%;
+}
+
+.settingsitemlink{
+	text-decoration: none;
+	color: #000;
+	transition: 0.1s ease-in-out;
+}
+
+.carouselbox{
+	height: auto;
+	width: 100%;
+	background-color: #fff;
+	text-align: center;
+	margin-top: 2.5%;
+}
+
+.profilepizzaimage{
+	height: 350px;
+    width: 100%;
+}
+
+.orderbox{
+	height: auto;
+	width: 100%;
+	padding: 3%;
+	margin-top: 1%;
+	background-color: #fff;
+	color: #000;
+	transition: 0.5s ease-in-out;
+	text-align: center;
+}
+
+.orderboxtext{
+	font-family: 'Poppins';
+    font-size: 110%;
+}
+
+.profileorderbutton{
+	color: #dc3545;
+	background-color: transparent;
+	background-image: none;
+	border-color: #dc3545;
+}
+
+/*Hover*/
+.profilerow:hover{
+	box-shadow: 3px 3px 5px #000;
+}
+
+.titlebox:hover{
+	box-shadow: 3px 0px 4px #777777;
+    background-color: /*#dc3545*/#ffc107;
+}
+
+.titlebox:hover .titleoverlay{
+	width: 60%;
+}
+
+.titlebox:hover .profileusername{
+	color: #000;
+}
+
+.settingsitem:hover{
+	background: linear-gradient(to left,rgba(0,0,0,0.7),rgba(0,0,0,0.9));
+    border-left: 8px solid #ffc107; 
+}
+
+.settingsitem:hover .settingsitemlink{
+	text-decoration: none;
+	color: #ffc107;
+}
+
+.orderbox:hover{
+	background-color: #000;
+    color: #fff;
+}
+
+.orderbox:hover .profileorderbutton{
+	color: #000;
+	background-color: #ffc107;
+	background-image: none;
+	border-color: #ffc107;
+}
+
+/*Media Query*/
+@media(max-width: 985px){
+	.profilepizzaimage{
+		height: 300px;
+	}
+}
+
+@media(max-width: 772px){
+	.profileoverlaytext{
+		font-size: 100%;
+	}
+
+	.profileusername{
+		font-size: 200%;
+	}
+}
+
+@media(max-width: 560px){
+	.titleoverlay{
+		background: linear-gradient(to right ,rgba(0,0,0,1),rgba(0,0,0,1));
+	}
+
+	.titlebox:hover .titleoverlay{
+		width: 100%;
+	}
+
+	.profileusername{
+		text-align: center;
+		font-size: 190%;
+	}
+
+	.profileoverlaytext{
+		font-size: 90%;
+	}
+
+	.profilepizzaimage{
+		height: 250px;
+	}
+
+	.orderbox{
+		padding:4%;
+	}
+
+	.orderboxtext{
+		font-size: 100%;
+	}
+}
+
+/*PROFILE PAGE Section*/
