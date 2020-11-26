@@ -49,14 +49,20 @@
 							<br/>
 						</div>
 						<div class="card-text text-center">
-							<input type="text" name="username" class="form-control logininput mx-auto" placeholder="Username/Mobile Number">
-							<br/>
-							<input type="password" name="password" class="form-control logininput mx-auto" placeholder="Password">
-							<br/>
-							<button type="button" class="btn btn-danger loginbutton">Login</button>
-							<br/>
-							<a href="ForgotPasswordPage1.html" class="loginlinkstyle">Forgot Password?</a><br/><br/><br/><br/>
-							<a href="#" class="loginlinkstyle">New here? Register now.</a>
+							<form action="<?php echo $current_file; ?>" method="POST">
+								<p class="redpara"><label for="username"><b><i class="fa fa-user" aria-hidden="true"></i> Username/Mobile Number:</b></label></p>
+								<input type="text" id="username" name="username" class="form-control logininput mx-auto" 
+								placeholder="Username/Mobile Number">
+								<br/>
+								<p class="redpara"><label for="password"><b><i class="fa fa-unlock-alt" aria-hidden="true"></i>
+								Password:</b></label></p>
+								<input type="password" id="password" name="password" class="form-control logininput mx-auto" placeholder="Password">
+								<br/>
+								<input type="submit" class="btn btn-warning loginbutton" value="Login">
+								<br/>
+								<a href="ForgotPasswordPage1.html" class="loginlinkstyle">Forgot Password?</a><br/><br/><br/><br/>
+								<a href="#" class="loginlinkstyle">New here? Register now.</a>
+							</form>
 						</div>
 					</div>
 				</div>

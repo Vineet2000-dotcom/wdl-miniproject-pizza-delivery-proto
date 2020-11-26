@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Profile</title>
+	<title>Change Username</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
     <meta name="description" content="Official website of IEEE student chapter of SIES GST, Navi Mumbai.">
@@ -37,7 +37,7 @@
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="icon" href="images/favicon.png">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-
+    
 <!-- Functions -->
     <script type="text/javascript">
         
@@ -137,69 +137,43 @@
     <div id="notnav" class="position-fixed h-100 w-100" onclick="menu();"></div>
 
 
-
-
-<!---Profile Pag Section--->
-
-	<div class="profilebg">
-		<div class="container">
-			<div class="row border rounded mx-auto profilerow">
-				<div class="col-12 titleboxcol">
-					<div class="titlebox">
-						<p><h1 class="profileusername"><i class="fa fa-user" aria-hidden="true"></i> shu_lo</h1></p>
-						<div class="titleoverlay">
-							<div class="profileoverlaytext">
-								<span class="nametext"><b>You are Logged in, Shubham Loya</b></span>
-							</div>
+<!---CHANGE USERNAME SECTION--->
+	<div class="changebg">
+		<div class="container ">
+			<div class="row mx-auto align-items-center ">
+				<div class="col-12">
+					<div class="card mx-auto changecard">
+						<div class="card-title text-center changecardtitle">
+							<h2>Change Username</h2>
+						</div>
+						<div class="card-text ">
+                            <form action="change_info.php" method="POST">
+    							<p class="changered"><label for="new_username"><i class="fa fa-user" aria-hidden="true"></i> New Username:</label></p>
+    							<input type="text" name="new_username" id="new_username" class="form-control changeinput" placeholder="Username" 
+                                required><br/>
+    							<p class="changecriteria">Criteria for Username:
+    								<ol class="changecriteria">
+    								<li>Only contains <i>alphanumeric characters, underscore </i>and <i>dot</i>.</li>
+    								<li><i>Underscore</i> and <i>dot</i> cannot be at start of username.</li>
+    								<li><i>Underscore</i> and <i>dot</i> cannot be next to each other or used consecutively.</li>
+    								<li>At least 3 and at most 30 characters should be used.</li>
+    								</ol>
+    							</p>
+                                
+    							<div class="text-center">
+    								<input type="submit" class="btn btn-warning changebutton " value="Submit"><br/><br/>
+    							</div>
+                            </form>
+                            <div class="text-center">
+                                <a href="ProfilePage.html" class="changelinkstyle">Go back to profile</a>
+                            </div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-12 profilesettings">
-					<div class="settingsbox">
-						<p class="settingstitle"><i class="fa fa-cog" aria-hidden="true"></i> General Settings</p>
-	                    <p class="settingsitem"><a href="ChangeUsernamePage.html" class="settingsitemlink">Change Username</a></p>
-	                    <p class="settingsitem"><a href="ChangePasswordPage.html" class="settingsitemlink">Change Password</a></p>
-	                    <p class="settingsitem"><a href="ChangeNamePage.html" class="settingsitemlink">Change Name</a></p>
-	                    <p class="settingsitem"><a href="ChangeMobileNumberPage.html" class="settingsitemlink">Change Mobile Number</a></p>
-	                    <p class="settingsitem"><a href="ChangeSecurityQpage.html" class="settingsitemlink">Change Security Question</a></p>
-	                    <hr class="my-3">
-	                    <p class="settingstitle"><i class="fa fa-cog" aria-hidden="true"></i> Account Settings</p>
-	                    <p class="settingsitem"><a href="LoginPage.html" class="settingsitemlink">Logout</a></p>
-	                    <p class="settingsitem"><a href="DeleteAccountPage.html" class="settingsitemlink">Delete Account</a></p>
-					</div>
-				</div>
-				<div class="col-md-8 col-sm-12 carouselboxcol">
-					<div class="carouselbox">
-						<div id="slides" class="carousel slide" data-ride="carousel">
-	                        <ul class="carousel-indicators">
-	                            <li data-target="#slides" data-slide-to="0" class="active"></li>
-	                            <li data-target="#slides" data-slide-to="1"></li>
-	                            <li data-target="#slides" data-slide-to="2"></li>
-	                        </ul>
-	                        <div class="carousel-inner">
-	                            <div class="carousel-item active">
-	                                <img class="profilepizzaimage" src="images/pizzalog.jpg">
-	                                
-	                            </div>
-	                            <div class="carousel-item">
-	                                <img class="profilepizzaimage" src="images/pizza2.jpg">
-	                            </div>
-	                            <div class="carousel-item">
-	                                <img class="profilepizzaimage" src="images/pizzalog.jpg">
-	                            </div>
-	                        </div>
-	                    </div>
-					</div>
-					<div class="orderbox">
-						<p class="orderboxtext">Get amazing pizzas at extremely low prices</p>
-						<button type="button"  class="btn btn-lg profileorderbutton">Order Now!</button>
-					</div>
-				</div>
-			</div>		
+			</div>
 		</div>
 	</div>
-
-<!---Profile Pag Section--->
+<!---CHANGE USERNAME SECTION--->
 
     <script type="text/javascript">
         window.onresize = function() {
@@ -228,6 +202,7 @@
         }
 
     </script>
+
 
 
 
