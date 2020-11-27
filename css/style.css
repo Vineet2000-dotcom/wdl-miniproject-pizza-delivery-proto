@@ -1492,8 +1492,274 @@ body
 /*vishak kodethur*/
 
 
+.ordersuccessbg{
+	background: url('../images/pizza-background-menu.jpg');
+    width: 100%;
+    height: auto;
+   	background-position: center 80%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 3%;
+}
 
+.ordersuccessrow{
+	padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 3%; 
+  	margin: 2%;
+    height: auto;
+    width: 100%;
+    background-color: #fff; 
+    border-color: transparent;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
 
+.ordersuccesstitlecol{
+	padding: 0;
+}
+
+.ordersuccesstitlebox{
+
+	padding: 3%;
+   	transition: 0.5s ease-in-out;
+	height: auto;
+	width: 100%;
+	background-color: #000; 
+	position: relative;
+}
+
+.ordersuccesstitle{
+	color: #fff;
+    transition: 0.5s ease-in-out;
+    text-transform: uppercase;
+}
+
+.ordersuccessdetailscol{
+	padding: 0;
+
+}
+
+.ordersuccessdetails{
+
+	margin-top: 0;
+	height: auto;
+	width: 100%;
+	text-align: left;
+	border: 1px solid #CCCCCC;
+	overflow: hidden; 
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 4%;
+	padding-right: 4%;
+	background-color: #CCCCCC;
+}
+
+.ordersuccessdetailsitem{
+	font-size: 140%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 0;
+	padding-right: 0; 
+	margin-bottom: 0; 
+	color: #000;
+}
+
+.ordersuccesstablecol{
+	padding: 0;
+}
+
+.ordersuccesstablebox{
+	margin-top: 0;
+	height: auto;
+	width: 100%;
+	font-size: 110%;
+	overflow: hidden; 
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 3%;
+	padding-right: 3%;
+	background-color: #fff;
+}
+
+.ordersuccesstable{
+	width: 100%;
+	text-align: center;	
+}
+
+.ordersuccesstable th{
+	font-size: 130%;
+}
+
+.ordersuccesstable th, .tableitems td{
+	padding: 2%;
+	border-bottom: 1px solid #ddd;
+
+}
+.ordersuccesstable .tableitems{
+	transition: 0.1s ease-in-out;
+}
+
+.ordersuccesstotalcol{
+	padding: 0;
+}
+
+.ordersuccesstotal{
+	margin-top: 0;
+	height: auto;
+	width: 100%;
+	font-size: 130%;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	overflow: hidden; 
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #dc3545;
+	transition: 0.3s ease-in-out;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.ordersuccesscancelbtn{
+	margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+    border-radius: 23px;
+}
+
+.ordersuccesslinksitem{
+	text-decoration: none;
+    font-size: 105%;
+    color: #000;
+}
+
+.ordersuccessrow:hover{
+	box-shadow: 3px 3px 5px #000;
+}
+
+.ordersuccesstitlebox:hover{
+	background-color: #333333;
+}
+
+.ordersuccesstitlebox:hover .ordersuccesstitle{
+	text-shadow: 2px 2px 3px #000;
+	color: #ffc107;
+}
+
+.ordersuccesstable .tableitems:hover {
+	background-color: #DDDDDD;
+	color: #dc3545;	
+}
+
+.ordersuccesstotal:hover{
+	background-color: #ffc107;
+	color: #000;
+	box-shadow: inset 4px 4px 6px #D9A407;
+}
+
+.ordersuccesscancelbtn:hover{
+	box-shadow: 2px 2px 5px grey;
+}
+
+.ordersuccesslinksitem:hover{
+	text-decoration: none;
+    color: #dc3545;
+}
+
+@media(max-width: 993px){
+	.ordersuccesstitle{
+		font-size: 170%;
+	}
+
+	.ordersuccessdetailsitem{
+		font-size: 120%;
+	}
+
+	.ordersuccesstablebox{
+		font-size: 100%;
+	}
+
+	.ordersuccesstable th{
+		font-size: 115%;
+	}
+}
+
+@media(max-width: 762px){
+	.ordersuccesstitle{
+		font-size: 150%;
+	}
+
+	.ordersuccessdetailsitem{
+		font-size: 100%;
+	}
+
+	.ordersuccesstablebox{
+		font-size: 90%;
+	}
+
+	.ordersuccesstable th{
+		font-size: 105%;
+	}
+}
+
+@media(max-width: 505px){
+	.ordersuccesstitle{
+		font-size: 130%;
+	}
+
+	.ordersuccessdetailsitem{
+		font-size: 98%;
+	}
+
+	.ordersuccesstablebox{
+		font-size: 90%;
+	}
+
+	.ordersuccesstable th{
+		font-size: 105%;
+	}
+
+	.ordersuccesstotal{
+		font-size: 110%;
+	}
+
+	.ordersuccesstable th, .tableitems td{
+		padding: 1%;
+	}
+}
+
+@media(max-width: 390px){
+	.ordersuccesstitle{
+		font-size: 110%;
+	}
+
+	.ordersuccessdetailsitem{
+		font-size: 86%;
+	}
+
+	.ordersuccesstablebox{
+		font-size: 85%;
+	}
+
+	.ordersuccesstable th{
+		font-size: 95%;
+	}
+
+	.ordersuccesstotal{
+		font-size: 100%;
+	}
+
+	.ordersuccesstable th, .tableitems td{
+		padding: 1%;
+	}
+}
+
+/*ORDER PLACED SUCCESSFULLY Section*/
 
 /*vishak kodethur end*/
 
