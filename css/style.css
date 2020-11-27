@@ -1379,6 +1379,7 @@ body
 
 .changecard{
 	margin: 2%;
+	margin-bottom: 0;
 	height: auto;
 	padding: 3%;
 	width: 60%;
